@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_01"
+        tools:ignore="ContentDescription" />
+    
+    <ImageView
+        android:src="@drawable/back_arrow"
+        android:layout_width="12dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="31dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="#F6F6F6"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"/>
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
+    
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="285dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/login_02"
+        tools:ignore="ContentDescription" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="253dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="19dp"
+            android:src="@drawable/user_03"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/printschoolID"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="314dp"
+        >
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="19dp"
+            android:src="@drawable/password_03"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            tools:ignore="ContentDescription" />
+
+        <com.bignerdranch.android.ourcqupt.CustomView.TogglePasswordVisibilityEditText
+            android:id="@+id/et2"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:hint="@string/printID"
+            android:background="@null"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_cursor_color"/>
+
+    </android.support.v7.widget.CardView>
+
+    <!--<ImageView
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:src="@drawable/user_03"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="263dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:src="@drawable/password_03"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="324dp"
+        tools:ignore="ContentDescription" />-->
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:src="@drawable/login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="398dp"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

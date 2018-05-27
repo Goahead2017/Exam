@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OurCQUPT</string>
+    <string name="login">登录</string>
+    <string name="printschoolID">请输入学号</string>
+    <string name="printID">请输入身份证后六位</string>
+    <string name="classes">课表</string>
+    <string name="ask">邮问</string>
+    <string name="find">发现</string>
+    <string name="my">我的</string>
+</resources>
